@@ -22,6 +22,7 @@ This project is organized into different components that follow best practices f
 - **Implementation Logic**: Acts as a bridge, connecting business logic to presentational components. Handles tasks like DOM manipulations, state changes, and network requests.
     - `useProducts.ts`: Serves as a bridge between business logic and the presentational component. Integrates business logic for user actions like editing or deleting a product.
 
+**This is a basic React Headless Component project. You can find the second version, which utilizes the context API, here: [React Headless UI v2](https://github.com/Kedon/react-headless-ui-v2)**
 
 
 ## Available Scripts
