@@ -77,7 +77,7 @@ const SignIn: React.FC = () => {
                     onChange={onChangeField} 
                     />
 
-                <Button type="submit">Enter</Button>
+                <Button type="submit" color="accent">Enter</Button>
             </Form>
         </Container>
     );
