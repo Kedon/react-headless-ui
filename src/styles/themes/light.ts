@@ -14,5 +14,6 @@ export default {
         system: '#0D85D8',
         warning: '#FFCC00',
         danger: '#FF6961',
+        pink: '#FF69B4',
     },
 };

@@ -142,7 +142,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ isOpen, data, toggle, onAddPr
                 <Button 
                     testId="edit-or-add-button"
                     disabled={isRequestingApi}
-                    color={formFields.id ? "system" : "success"}
+                    color={formFields.id ? "pink" : "success"}
                     onClick={handleSaveOrUpdate}>
                         { formFields.id ? "Edit" : "Add" }
                 </Button>
