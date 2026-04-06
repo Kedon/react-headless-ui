@@ -46,7 +46,7 @@ const Products: React.FC = () => {
         <Button
           testId="add-product-button"
           onClick={toogleModal}
-          color="success">Add new</Button>
+          color="system">Add product</Button>
       </ProductHeaderContainer>
 
       {/* Table displaying product data */}

@@ -14,7 +14,7 @@ This repository is the practical demonstration of React Headless UI components d
 This project is organized into different components that follow best practices for clean and maintainable code:
 
 - **Presentational Components**: Components primarily concerned with how things look. They take in data and display it.
-    - `products.jsx`: Defines the look and structure of the product page, which includes a grid of items and buttons for Add New, Edit, Update, and Delete.
+    - `products.jsx`: Defines the look and structure of the product page, which includes a grid of items and buttons for Add product, Edit, Update, and Delete.
 
 - **Business Logic**: Contains core processes, rules, and operations that make the software functional.
     - `productPageLogic.ts`: Houses rules and computations related to product page logic, such as Add, Edit, Delete, or Fetch products.

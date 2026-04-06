@@ -142,9 +142,9 @@ const ProductForm: React.FC<ProductFormProps> = ({ isOpen, data, toggle, onAddPr
                 <Button 
                     testId="edit-or-add-button"
                     disabled={isRequestingApi}
-                    color={formFields.id ? "system" : "success"}
+                    color="system"
                     onClick={handleSaveOrUpdate}>
-                        { formFields.id ? "Edit" : "Add" }
+                        { formFields.id ? "Edit" : "Add product" }
                 </Button>
             </>}
             title={ formFields.id ? "Edit product" : "Add product" }
